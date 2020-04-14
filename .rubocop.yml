@@ -39,7 +39,18 @@ Style/AndOr:
 Style/DefWithParentheses:
   Enabled: false
 Style/FrozenStringLiteralComment:
-  EnforcedStyle: never
+  EnforcedStyle: 
+  neverLint/RaiseException:
+  Enabled: false
+  
+Lint/StructNewOverride (0.81):
+  Enabled: false
+Style/HashEachMethods (0.80):
+  Enabled: false
+Style/HashTransformKeys (0.80):
+  Enabled: false
+Style/HashTransformValues (0.80):
+  Enabled: false
 
 Layout/HashAlignment:
   EnforcedColonStyle: key
