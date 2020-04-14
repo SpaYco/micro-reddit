@@ -43,13 +43,13 @@ Style/FrozenStringLiteralComment:
   neverLint/RaiseException:
   Enabled: false
   
-Lint/StructNewOverride (0.81):
+Lint/StructNewOverride:
   Enabled: false
-Style/HashEachMethods (0.80):
+Style/HashEachMethods:
   Enabled: false
-Style/HashTransformKeys (0.80):
+Style/HashTransformKeys:
   Enabled: false
-Style/HashTransformValues (0.80):
+Style/HashTransformValues:
   Enabled: false
 
 Layout/HashAlignment:
