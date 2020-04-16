@@ -7,7 +7,7 @@ class CreatePosts < ActiveRecord::Migration[6.0]
       t.integer :upvote
       t.integer :downvote
 
-      t.belongs_to :User
+      t.belongs_to :user
       t.timestamps
     end
   end

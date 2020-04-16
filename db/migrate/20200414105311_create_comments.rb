@@ -7,8 +7,8 @@ class CreateComments < ActiveRecord::Migration[6.0]
       t.integer :upvote
       t.integer :downvote
 
-      t.belongs_to :User
-      t.belongs_to :Post
+      t.belongs_to :user
+      t.belongs_to :post
       t.timestamps
     end
   end
